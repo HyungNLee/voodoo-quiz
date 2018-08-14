@@ -1,0 +1,7 @@
+.good-result, .bad-result, .neutral-result, #bad_survey {
+  display: none;
+}
+
+img {
+  width:85%;
+}

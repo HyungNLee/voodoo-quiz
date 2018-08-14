@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Voodoo Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Have you been VOODOO'd?</h1>
+      </div>
+      <form id="good_survey">
+        <div class="form-group">
+          <p><strong>In the past year, have you experienced or felt any of the following:</strong></p>
+          <input type="checkbox" name="good-symptoms" value=1> Recently found your true love.<br>
+          <input type="checkbox" name="good-symptoms" value=1> Mysterious healing of a serious illness.<br>
+          <input type="checkbox" name="good-symptoms" value=1> Close call with an accident where you were unhurt.<br>
+          <input type="checkbox" name="good-symptoms" value=1> Unexpected financial success.<br>
+          <input type="checkbox" name="good-symptoms" value=1> Feeling positive.<br>
+        </div>
+        <button type="submit">Submit Good Symptoms</button>
+      </form>
+      <form id="bad_survey">
+        <div class="form-group">
+          <p><strong>In the past year, have you experienced or felt any of the following:</strong></p>
+          <input type="checkbox" name="bad-symptoms" value=1> Low energy.<br>
+          <input type="checkbox" name="bad-symptoms" value=1> Fantasies of suicide or murder.<br>
+          <input type="checkbox" name="bad-symptoms" value=1> Hearing voices.<br>
+          <input type="checkbox" name="bad-symptoms" value=1> Mood swings.<br>
+          <input type="checkbox" name="bad-symptoms" value=1> Nightmares and sleepwalking.<br>
+        </div>
+       <button type="submit">Submit Evil Symptoms</button>
+      </form>
+      <div class="results">
+        <div class="good-result">
+          <h3>You have someone looking out for you who has sent you a benevolent spirit!</h3>
+          <img src="img/goodVoodoo.jpg" alt="Picture of good voodoo.">
+        </div>
+        <div class="neutral-result">
+          <h3>You have not been voodoo'd, for good or evil.</h3>
+        </div>
+        <div class="bad-result">
+          <h3>Apologize for your sins, for someone has sent you evil spirits!</h3>
+          <img src="img/badVoodoo.jpg" alt="Picture of good voodoo.">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
